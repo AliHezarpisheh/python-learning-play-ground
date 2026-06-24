@@ -23,6 +23,3 @@ class MyStack:
 
     def empty(self) -> bool:
         return not bool(self.queue)
-
-
-

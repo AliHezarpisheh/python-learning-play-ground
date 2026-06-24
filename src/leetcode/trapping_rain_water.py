@@ -1,15 +1,13 @@
 class Solution:
     def trap(self, heights: list[int]) -> int:
-        next_right_greatest_elements = (
-            self.get_next_right_greatest_element(numbers=heights)
+        next_right_greatest_elements = self.get_next_right_greatest_element(
+            numbers=heights
         )
-        next_left_greatest_elements = (
-            self.get_next_left_greatest_element(numbers=heights)
+        next_left_greatest_elements = self.get_next_left_greatest_element(
+            numbers=heights
         )
         zip_elements = zip(
-            heights,
-            next_left_greatest_elements,
-            next_right_greatest_elements
+            heights, next_left_greatest_elements, next_right_greatest_elements
         )
 
         result = 0

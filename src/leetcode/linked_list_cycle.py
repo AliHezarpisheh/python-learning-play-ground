@@ -19,6 +19,6 @@ class Solution:
 
             fast = fast.next
             slow = slow.next if counter % 2 == 1 else slow
-            counter += 1 
+            counter += 1
 
         return False

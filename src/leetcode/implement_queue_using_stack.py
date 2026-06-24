@@ -19,7 +19,7 @@ class MyQueue:
         if not self.outbound_stack:
             while self.inbound_stack:
                 self.outbound_stack.append(self.inbound_stack.pop())
-        return self.outbound_stack[-1] 
+        return self.outbound_stack[-1]
 
     def empty(self) -> bool:
         if self.inbound_stack or self.outbound_stack:

@@ -1,5 +1,6 @@
 """Module containing shitty ahh code, don't pay attention please:)."""
 
+
 class NestedInteger:
     def isInteger(self) -> bool:
         """
@@ -17,6 +18,7 @@ class NestedInteger:
         @return the nested list that this NestedInteger holds, if it holds a nested list
         Return None if this NestedInteger holds a single integer
         """
+
 
 class NestedIterator:
     def __init__(self, nestedList: list[NestedInteger]):
