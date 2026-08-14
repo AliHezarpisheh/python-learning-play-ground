@@ -81,7 +81,7 @@ class Solution:
 
         k %= list_length
         if k == 0:
-            return None
+            return head
 
         tail.next = head
 
